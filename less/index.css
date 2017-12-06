@@ -3,3 +3,12 @@ p{
     color: seagreen;
     font-size: 30px;
 }
+div{
+    width: 100px;
+    height: 100px;
+    background-color: slateblue;
+    transition: all 1s;
+}
+div:hover{
+    transform: rotateZ(360deg);
+}
